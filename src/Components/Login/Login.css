@@ -1,0 +1,28 @@
+.login-container{
+    height: 25rem;
+    width: 26rem;
+    border: 1px solid gray;
+    padding: 2rem;
+}
+.login-header{
+    font-size: 1.5rem;
+}
+.input-field{
+    display: flex;
+    justify-content: space-between;
+   
+}
+input{
+    width: 20rem;
+    padding: 0.5rem;
+    /* border-radius: 10px; */
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+button{
+    background-color: blue;
+    color: white;
+}
